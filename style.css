@@ -1,0 +1,116 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+.hdr-list{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  list-style: none;
+}
+.hdr-list-item {
+  margin: 0 1.25rem;
+}
+.hdr-link {
+  color: #d62828;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+a {
+   color: #d62828;
+}
+a:hover {
+  color: #f77f00;
+}
+
+.about-hdr {
+  margin-top: 5rem;
+  text-align: center;
+  
+}
+.abt-list {
+  padding-left: 2.5rem;
+}
+/* ARTICLE SECTION */
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+.about-section {
+  margin-bottom: 5rem;
+}
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+.portfolio-par {
+  text-align: left;
+}
+.portf-h2 {
+  margin-bottom: 2.5rem;
+}
+.portf-h3 {
+  margin-bottom: 2.0rem;
+}
+.contact-hdr {
+  margin-top: 3.5rem;
+}
+.contact-list {
+   padding-left: 2.5rem;
+}
+footer {
+  text-align: center;
+  margin-top: 5rem;
+}
